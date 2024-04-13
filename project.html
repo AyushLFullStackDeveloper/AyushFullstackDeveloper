@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- styling  -->
+    <style>
+        body {
+            margin: 0px;
+            overflow: scroll;
+        }
+
+        .main {
+            background-color: #818c9b;
+            width: 100vw;
+            height: 2200px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+
+        .main-2 {
+            background-color: #8CB9BD;
+            margin-left: 10px;
+            width: 20%;
+            height: 100%;
+            position: fixed;
+        }
+
+        .my {
+            text-align: center;
+            margin-top: 20px;
+            border-radius: 50%;
+        }
+
+        .in {
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+        }
+
+        .github {
+            text-align: center;
+        }
+
+        .ib {
+            width: 100%;
+            height: 25%;
+        }
+
+        /* details */
+        .details {
+            font-family: monospace;
+            text-align: center;
+        }
+
+        /*  */
+        /*  */
+        /*  */
+        .img-1 {
+            height: 30vw;
+            width: 30vw;
+            margin-left: 350px;
+            margin-top: 100px;
+            border-style: solid;
+            color: white;
+        }
+
+        .img-2 {
+            height: 30vw;
+            width: 30vw;
+            margin-top: 100px;
+            margin-left: 150px;
+            border-style: solid;
+            color: white;
+        }
+
+        .img-3 {
+            height: 30vw;
+            width: 30vw;
+            margin-top: 100px;
+            margin-left: 350px;
+            border-style: solid;
+            color: white;
+        }
+
+        /*  */
+        @media(min-width:400px) and (max-width:800px) {
+            .main {
+                background-color: #5e92e0;
+                width: 100%;
+                height: 1500px;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .main-2 {
+                background-color: #8CB9BD;
+                margin-left: 10px;
+                width: 100%;
+                height: 100%;
+
+            }
+
+            .my {
+                margin-left: 10px;
+                height: 150px;
+                width: 150px;
+                text-align: center;
+                margin-top: 20px;
+                border-radius: 50%;
+            }
+
+            .in {
+                border-radius: 50%;
+                height: 30px;
+                width: 30px;
+            }
+
+            .github {
+                margin-right: 15px;
+
+            }
+
+            .ib {
+                width: 100%;
+                height: 25%;
+            }
+
+            /* details */
+            .details {
+                font-family: monospace;
+                text-align: center;
+            }
+
+            /*  */
+            /*  */
+            /*  */
+            .img-1 {
+                height: 100px;
+                width: 100px;
+                margin-left: 250px;
+                margin-top: 50px;
+                border-style: solid;
+                color: rgb(96, 20, 20);
+            }
+
+            .img-2 {
+                height: 100px;
+                width: 100px;
+                margin-top: 50px;
+                margin-left: 250px;
+                border-style: solid;
+                color: rgb(135, 18, 18);
+            }
+
+            .img-3 {
+                height: 100px;
+                width: 100px;
+                margin-top: 100px;
+                margin-left: 250px;
+                border-style: solid;
+                color: white;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- main division -->
+    <div class="main">
+        <!-- division -->
+        <div class="main-2">
+            <!-- my pic -->
+
+            <!--  -->
+            <div class="im"> <img class="my"
+                    src="https://media.licdn.com/dms/image/D4D03AQFx1EfKdKjqRQ/profile-displayphoto-shrink_200_200/0/1706110859470?e=1715212800&v=beta&t=vRxsPunKT3pPuDxHc_oFZ8RXEPdyuYoG1Rl8Bc7AMWo">
+            </div>
+            <br>
+            <br>
+            <br>
+            <!-- github link -->
+            <details class="details"><br /> <button style="background-color: #B5C0D0;"><a href="./Resume.html">
+                        Resume</button></a></details>
+            <hr>
+            <div class="github"><img class="in"
+                    src="https://cdn.icon-icons.com/icons2/1793/PNG/512/githubdrawlogo_114764.png"><label for="text"> My
+                    Github Account:</label> &nbsp; &nbsp; <button style="background-color:#99BC85;">
+                    <a href="https://github.com/AyushLFullStackDeveloper/AyushLFullStackDeveloper">Github</button>
+                </a>
+            </div>
+            <hr>
+            <!-- linked in link -->
+            <div class="github"><img class="in" src="../accets/images/shubham_bhai.png"><label for="text">My Linked In
+                    Account:</label><button style="background-color: #99BC85;"><a
+                        href="https://www.linkedin.com/in/ayush-lolusare-a047322a8/?originalSubdomain=in">Linked
+                        In</button>
+                </a>
+            </div>
+            <hr>
+            <!-- skype id -->
+            <div class="github"><img class="in" src="../accets/images/skype_logo_png.png"><label for="text"> My Skype
+                    Account:</label> &nbsp; <button style="background-color:#99BC85;"><a
+                        href="https://web.skype.com/??openPstnPage=true">Skype</button>
+                </a>
+            </div>
+            <hr>
+            <img class="ib"
+                src="https://media1.giphy.com/media/QpVUMRUJGokfqXyfa1/200.webp?cid=790b7611zje099i023gk2djccy4wfapjxngpmvcuh2uv8myf&ep=v1_gifs_search&rid=200.webp&ct=g">
+            <!--  -->
+
+        </div>
+
+        <!-- new start -->
+
+        <a href="../calculatorTwo.html"><img class="img-1"
+                src="https://play-lh.googleusercontent.com/WgTHcjP7699EFfpQUb3Y95nE5Z5muvozT8aOzSxR1rUpdRikMAvBjufXT9O6flyhd0w">
+        </a>
+
+        <a href="./formOne.html">
+            <img class="img-2" src="https://cdn-icons-png.flaticon.com/512/3315/3315785.png" alt="">
+        </a>
+        <!--  -->
+        <a href="./flag.html"><img class="img-1"
+                src="https://media.istockphoto.com/id/512185437/photo/indias-flag-close-up.jpg?s=1024x1024&w=is&k=20&c=7m1VHBnlOvSFysS0LgYYDTE-MqKp05M6cldwtaN0Bhc=">
+        </a>
+
+        <a href="../New_Projects/keyboard.html">
+            <img class="img-2"
+                src="https://www.shutterstock.com/image-vector/abstract-computer-keyboard-logo-vector-600w-2364797681.jpg"
+                alt="">
+        </a>
+        <!--  -->
+
+        <a href="./mysubjects.html"><img class="img-1"
+                src="https://w7.pngwing.com/pngs/161/51/png-transparent-language-arts-ctet-%C2%B7-september-2018-syllabus-others-language-arts-syllabus.png">
+        </a>
+
+        <a href="./topThreeFev.html">
+            <img class="img-2"
+                src="https://cdn3.vectorstock.com/i/1000x1000/62/02/my-favorite-rubber-stamp-vector-14646202.jpg"
+                alt="">
+        </a>
+
+        <a href="../New_Projects/kbc.html">
+            <img class="img-3"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7atiDqQl5Wq7Cvlx_YGGYqrpb9OEEHNAQGw&usqp=CAU"
+                alt="">
+        </a>
+
+    </div>
+</body>
+
+</html>

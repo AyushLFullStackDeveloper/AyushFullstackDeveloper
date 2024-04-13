@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- styling -->
+    <style>
+        /* main container */
+        .main-container {
+            height: 90vh;
+            width: 50vw;
+            margin-left: 20%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        /* display */
+
+        .display {
+            background-color: rgb(67, 69, 69);
+            height: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 22px;
+            color: orange;
+
+
+        }
+
+        /* input box */
+        .input-box {
+            background-color: #00425A;
+            height: 40px;
+            width: 29%;
+            margin-top: 5%;
+            color: white;
+            display: flex;
+            margin-bottom: 2px;
+        }
+
+        /* button */
+
+        .button {
+            background-color: green;
+            height: 40px;
+            width: 30%;
+
+        }
+    </style>
+    <script>
+        function itterate() {
+            let x = prompt("what table you want ?");
+
+            x = Number(x);
+
+            let output = "";
+            let i = 1;
+
+            while (i <= x) {
+                output += "*";
+
+                i++;
+            }
+            console.log("", output);
+        }
+    </script>
+</head>
+
+<body style=" margin: 0px;">
+    <!-- main container -->
+    <div class="main-container">
+        <div class="display" id="display"></div>
+        <input type="number" class="input-box" id="input" />
+        <div class="input-container">
+            <button class="button" onmouseenter=" itterate()">Click here</button>
+
+        </div>
+    </div>
+</body>
+
+</html>

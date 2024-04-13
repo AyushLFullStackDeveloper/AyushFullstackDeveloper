@@ -1,0 +1,12 @@
+.pen {
+    background-color: red;
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+}
+body {
+    background-image: url(https://img.freepik.com/premium-psd/rectangle-frame-neo-memphis-social-background-mockup_53876-155182.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

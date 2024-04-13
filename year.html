@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .main {
+            font-family: Arial, sans-serif;
+            background-image: url(https://img.freepik.com/premium-photo/modern-office-desk-table-with-notebook-other-supplies-with-green-tree-blank-notebook-page-you-design-top-view-flat-lay_79075-30143.jpg);
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .main-container {
+            height: 700px;
+            width: 500px;
+            background-color: rgba(34, 207, 60, 0.188);
+            margin-left: 770px;
+        }
+
+        .button {
+            height: 40px;
+            width: 200px;
+            background-color: none;
+            border-radius: 30%;
+            margin-top: 90px;
+            margin-left: 140px;
+        }
+
+        .input {
+            margin-top: 100px;
+            margin-left: 40px;
+            height: 40px;
+            width: 200px;
+            border-radius: 10%;
+            background-color: bisque;
+        }
+
+        #result {
+            margin-top: 40px;
+            margin-left: 140px;
+            font-size: xx-large;
+        }
+    </style>
+    <script>
+        function checkLeapYear() {
+            let year = document.getElementById("yearInput").value;
+            if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+                document.getElementById("result").textContent = year + ' Is a Leap Year.';
+            } else {
+                document.getElementById("result").textContent = year + ' Is Not a Leap Year.';
+            }
+        }
+    </script>
+</head>
+
+<body class="main">
+    <div class="main-container">
+        <label class="input">
+            Enter a year: <input class="input" type="number" id="yearInput" />
+        </label>
+        <br />
+        <br />
+        <button class="button" onclick="checkLeapYear()">Check Leap Year</button>
+        <div id="result"></div>
+    </div>
+
+
+</body>
+
+</html>
